@@ -1,6 +1,33 @@
 body{
     background-color: gray;
 }
+
+
+     
+nav{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+nav ul{
+   padding-left: 35%;
+   padding-right: 35%;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 50px;
+    align-items: center;
+}
+
+nav ul li a{
+    color: white;
+
+}
+a.active, a:hover{
+    background: orange;
+}
 #webpage{
     border: solid rgb(247, 68, 98) 2mm;
     height: 300px;
@@ -10,26 +37,62 @@ body{
 #citypic{
     border: solid black;
     border-radius: 5%;
-    float: left;
+    
 }
 #bottomDiv{
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-#pinkTextBox{
+.rightSide{
     float: right;
+    width: 350px;
 }
+.leftSide{
+    float: left;
+}
+
+
 
 #firstLine{
     background-color: hotpink;
+    height: 60px;
+    width: 100%;
+    font-family: Arial;
+    
+
 }
 
 #secondLine{
     background-color: pink;
+    height: 60px;
+    width: 100%;
+    font-size: larger;
+    font-family: Courier, monospace;
+    
 }
 
 #thirdLine{
     background-color: lightpink;
+    height: 60px;
+    width: 100%;
+    font-size: large;
+    font-family: Corsiva;
+  
+    
 }
+
+button{
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border: solid orange;
+    border-radius: 15px;
+
+}
+
+
+
 
 
 
