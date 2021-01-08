@@ -3,8 +3,34 @@ body{
 }
 #webpage{
     border: solid rgb(247, 68, 98) 2mm;
+    height: 300px;
 
 }
+
+#citypic{
+    border: solid black;
+    border-radius: 5%;
+    float: left;
+}
+#bottomDiv{
+    padding: 10%;
+}
+#pinkTextBox{
+    float: right;
+}
+
+#firstLine{
+    background-color: hotpink;
+}
+
+#secondLine{
+    background-color: pink;
+}
+
+#thirdLine{
+    background-color: lightpink;
+}
+
 
 
 
