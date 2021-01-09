@@ -99,7 +99,8 @@
     border: solid 1px #03cffc;
     border-radius: 20px;
     float: left;
-    margin-left: 15%;
+    align-items: center;
+    margin-left: 10%;
     padding-left: 2%;
     padding-right: 2%;
     font-weight: bolder;
@@ -128,4 +129,17 @@
     margin-left: 1%;
     margin-right: 1%;
     border: solid black 2px;
+}
+#glaciersHeading{
+    text-align: center;
+}
+.hikingPics{
+    width: 30%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: solid black 2px; 
+}
+#div10{
+    height: 50%;
 }
