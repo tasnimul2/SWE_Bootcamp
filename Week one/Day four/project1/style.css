@@ -105,7 +105,27 @@
     font-weight: bolder;
 
 }
+.btns:hover{
+    background-color: #03cffc ;
+    color: white;
+}
 #footnote{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+}
+
+#northernLightHeading{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+#div7{
+    height: 50%;
+}
+.northLightPics{
+    width: 30%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: solid black 2px;
 }
