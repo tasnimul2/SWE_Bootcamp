@@ -92,3 +92,20 @@
     height: 3%;
     width: 3%;
 }
+
+.btns{
+    color: #03cffc;
+    background-color: white;
+    border: solid 1px #03cffc;
+    border-radius: 20px;
+    float: left;
+    margin-left: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: bolder;
+
+}
+#footnote{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
