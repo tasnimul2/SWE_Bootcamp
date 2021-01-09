@@ -1,5 +1,6 @@
 *{
     font-family: 'Indie Flower', cursive;
+
 }
 
 #div1{
@@ -25,14 +26,14 @@
     
 }
 #logoImage{
-    width: 12%;
+    width: 14%;
     height: 90%;
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 #icelandPurplePic{
-    width: 12%;
+    width: 11%;
     height: 90%;
     float: left;
     border-radius: 50%;
@@ -43,6 +44,7 @@
     width: 15%;
     text-align: center;
     margin-left: 20%;
+    font-weight: bolder;
 }
 
 .keyword{
@@ -65,4 +67,28 @@
 .caption{
     font-style: italic;
     font-size: small;
+}
+
+.newsHeadline{
+    font-style: italic;
+    margin-left: 1%;
+}
+
+.newsBody{
+    margin-left: 3%;
+}
+
+.bodyOfTable{
+    background-color: lightgray;
+}
+#flightCost{
+    background-color: lightcoral;
+}
+
+.headings{
+    background-color: lightgreen;
+}
+.contactIcon{
+    height: 3%;
+    width: 3%;
 }
