@@ -107,8 +107,8 @@
 
 }
 .btns:hover{
-    background-color: black ;
-    color: white;
+    background-color: white ;
+    color: black;
 }
 #footnote{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
