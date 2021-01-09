@@ -1,0 +1,47 @@
+p{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.texts{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px blue;/* offset-x | offset-y | blur-radius | color */
+}
+
+#forthText{
+    border: solid black;
+    margin: 100px 50px; /* vertical horizontal*/
+    /* Margins create extra space around an element. In contrast,
+    padding creates extra space within an element.*/
+
+}
+
+#fifthText{
+    border: dotted purple;
+    padding:5em;
+}
+
+#sixthText{
+    text-align: center;
+    border: dotted green;
+    padding: 10px 35% 10px 35%; /* top | right | bottom | left */
+    margin: 5% 10%;
+}
+#seventhText{
+    color: blue;
+}
+
+.pics{
+    height: 400px;
+    box-shadow: 15px 30px 2px 1px rgba(0, 0, 0, 0.2);/* offset-x | offset-y | blur-radius | spread-radius | color */
+    margin: 0 10px
+}
+#sasuke{
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgb(187, 121, 238 );
+    margin: 0 10px;
+    border: solid black;
+    border-radius: 25% 10%; /* top-left bottom-right*/
+}
