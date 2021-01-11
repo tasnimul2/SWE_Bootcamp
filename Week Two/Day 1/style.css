@@ -15,7 +15,7 @@
     width: 100%;
     height: 600px;
     position: absolute; /* position absolute will put it in the front*/
-    top: 10%;
+    top: 10%; /* we need to make this div smaller than appleDiv so it shows up in the front*/
     bottom: 10%;
     
 }
