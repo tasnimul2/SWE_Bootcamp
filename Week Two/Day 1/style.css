@@ -1,0 +1,31 @@
+.appleDiv{
+    width: 100%;
+    height: 600px;
+    position: relative; /* position relative will make it the backround*/
+   
+    
+}
+
+.appleDiv img{
+    width : 80%;
+    height: 600px;
+}
+
+.textDiv{
+    width: 100%;
+    height: 600px;
+    position: absolute; /* position absolute will put it in the front*/
+    top: 10%;
+    bottom: 10%;
+    
+}
+
+.textDiv p{
+    text-align: center;
+    color: white;
+    background-color: pink;
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto ;
+}
