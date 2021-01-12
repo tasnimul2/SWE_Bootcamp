@@ -1,0 +1,42 @@
+.clock{
+    background-image: url(https://i.imgur.com/9H54XZG.png);
+    width:500px;
+    height: 500px;
+    background-size: contain; /* contain makes it fit inside the div*/
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+
+#minuteHand{
+    width: 200px;
+    height: 70px;
+    size: contain;
+    transform: rotate(-90deg);
+    animation-name: moveMinute;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    margin-left:150px;
+    margin-top:115px;
+    position: absolute;
+}
+
+#hourHand{
+    width: 150px;
+    height: 50px;
+    margin-top:225px;
+    margin-left: 250px;
+    animation-name: moveHour;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    position: absolute;
+}
+@keyframes moveMinute{
+    0%{margin-left:250px;margin-top:215px; transform: rotate(-90deg);transform-origin: center left;}
+    100%{ margin-left:250px;margin-top:215px; transform:rotate(270deg);transform-origin: center left;}
+}
+@keyframes moveHour{
+    0%{margin-left:250px;margin-top:225px; transform: rotate(0deg);transform-origin: center left;}
+    100%{ margin-left:250px;margin-top:225px; transform:rotate(30deg);transform-origin: center left;}
+}
