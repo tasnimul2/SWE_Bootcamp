@@ -25,7 +25,34 @@
     color: white;
     background-color: pink;
     width: 200px;
-    height: 100px;
+    height: 20px;
     margin-left: auto;
     margin-right: auto ;
+
+    
 }
+.hillBackground{
+    border: solid 2px  red;
+    width: 800px;
+    height: 400px;
+    background-image: url(https://e.edim.co/205361572/3IiYXPGYydrQFaU3.jpg?response-content-disposition=filename%3D%22mountain.jpg%22%3B%20filename%2A%3DUTF-8%27%27mountain.jpg&Expires=1610496734&Signature=Kwph3JBNDuRpZ44IuMfxHUiUmLc~TQH6CnsKwkTqkZ1YmBi5dOaCsXh0KwJpYyEjAypM0ww6T6HfN4Dn6ZsGjc~yxL4HWEd5Xa0RaFA3kKr8MGRL9meVACjr4XuTYxoXDmy2Dw6ZIJED1cUpwHDeK9YEkXsAjISZJ0-3dgc~YLx1dKgjxDC7M80cnb9-gn-99w2QjIzyoM0lDHK9Ufk4-aRZN6IXQ-tVrovJK7qwbRrNlJOgqWgEpNvpyvyhCqTRTh5~1r4m4O02rok52vP2BnM29YhIMQtADYqeKMc0HJBijPHJdgBRqVki8UZgch3Szud4DiWvFc3QLoxNUab0QQ__&Key-Pair-Id=APKAJMSU6JYPN6FG5PBQ);
+    background-repeat: no-repeat;
+    position: relative;
+}
+#bus1{
+
+    margin-top: 34%;
+    animation-name: moveBus;
+    animation-duration: 10s;
+    animation-delay:  2s;
+    margin-left: 0px;
+
+
+}
+
+@keyframes moveBus{
+    0%{ margin-left:0px;}
+    100%{margin-left: 600px;}
+}
+    
+
