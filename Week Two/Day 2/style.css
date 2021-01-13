@@ -1,0 +1,40 @@
+.frame{
+    width:100%;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.slidegroup{
+    width: 400%; /* with will fit 4 slides side by side */
+    height: 100%;
+    animation: slide 6s infinite ;/*name duration timing-function delay iteration-count direction fill-mode*/
+
+}
+
+.slide{
+    width: 25%; /*means  25% of slidegroup since we have  diffent 4 slides (4*25% = 100% )*/
+    height: 100%;
+    float:left;
+    font-size: 160px;
+    text-align: center;
+}
+
+.slide1{
+    background-color: pink;
+}
+.slide2{
+    background-color: green;
+}
+.slide3{
+    background-color: lightblue;
+}
+.slide4{
+    background-color: orange;
+}
+@keyframes slide{
+    0%{margin-left: 0%;}
+    33%{margin-left: -100%;}
+    69%{margin-left: -200%;}
+    100%{margin-left: -300%;}
+}
