@@ -20,17 +20,21 @@
     text-align: center;
 }
 
-.slide1{
-    background-color: pink;
+.slide1 img{
+    width: 100%;
+    height: 100%;
 }
-.slide2{
-    background-color: green;
+.slide2 img{
+    width: 100%;
+    height: 100%;
 }
-.slide3{
-    background-color: lightblue;
+.slide3 img{
+    width: 100%;
+    height: 100%;
 }
-.slide4{
-    background-color: orange;
+.slide4 img{
+    width: 100%;
+    height: 100%;
 }
 @keyframes slide{
     0%{margin-left: 0%;}
