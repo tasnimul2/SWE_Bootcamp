@@ -1,10 +1,10 @@
 .mainDiv{
     width: 100%;
-    height: 1000px;
+    height: 500px;
 }
 .differentProductsDiv{
     width: 30%;
-    height: 50%;
+    height: 90%;
     float: left;
     margin-left: 10%;
     border: 2px solid red;
@@ -28,3 +28,16 @@
     background-color: white;
     border: 2px solid orange;
 }
+
+.entireModalWindow{
+    /* this is the gray backround of the ModalWindow*/
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left:0px;
+    background-color: rgba(111,111,111,0.5);
+    opacity: 1;
+    pointer-events: none; /* when we hover over with mouse, nothing will happen*/
+}
+
