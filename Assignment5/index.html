@@ -7,13 +7,13 @@
     <title>Assignment 5</title>
 </head>
 <body>
-    <div class="mainDiv">
+    <div id="openMainDiv "class="mainDiv">
         <div class="differentProductsDiv">
             <img class="snackImages" src="https://i.imgur.com/uen0Il2.jpg" alt="snack1">
             <br>
             <center> <h3> Delicious Gummies</h3> </center>
             <br>
-            <center> <a href="https://www.google.com"> <button  class="modalLinkOpeningButton"> Open Modal Link </button> </a> </center>
+            <center> <a href="#openModal"> <button  class="modalLinkOpeningButton"> Open Modal Link </button> </a> </center>
         </div>
 
         <div class="differentProductsDiv">
@@ -21,7 +21,7 @@
             <br>
             <center> <h3> Trail mix Snack</h3> </center>
             <br>
-            <center> <a href="https://www.google.com"> <button class="modalLinkOpeningButton" > Open Modal Link II </button>  </a> </center>
+            <center> <a href="#openModal2"> <button class="modalLinkOpeningButton" > Open Modal Link II </button>  </a> </center>
         </div>
 
 
@@ -29,6 +29,43 @@
 
     <div id="openModal" class="entireModalWindow">
         <div class="messageBoxForModal">
+            <div class="modalHeadingDiv">
+                <h1 class="modalHeadingText"> Modal Window Example</h1>
+            </div>
+            <div class="modalBodyParagraphDiv">
+                <p>This is a paragraph in the message window.This is a paragraph in the message window.
+                   This is a paragraph in the message window.
+                </p>
+
+            </div>
+
+            <div class="modalBodyContentDiv">
+                <div class="modalBodyContentDivItem"> <img class="islandPic" src="https://i.imgur.com/YkEHOUE.jpg" alt="island"></div>
+                <div id="modalBodyContentDivButton"> <a href="#openMainDiv"><button id="closeButton"> Close</button> </a>  </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <div id="openModal2" class="entireModalWindow">
+        <div class="messageBoxForModal2">
+            <div class="modalHeadingDiv2">
+                <h1 class="modalHeadingText"> Modal Window Example</h1>
+                <a href="#openMainDiv"><button id="xButton"> X</button> </a> 
+            </div>
+            <div class="modalBodyParagraphDiv2">
+                <p>This is a paragraph in the message window.This is a paragraph in the message window.
+                   This is a paragraph in the message window.
+                </p>
+
+            </div>
+
+            <div class="modalBodyContentDiv">
+                <div class="modalBodyContentDivItem"> <img class="islandPic" src="https://i.imgur.com/YkEHOUE.jpg" alt="island"></div>
+                
+            </div>
             
         </div>
 
