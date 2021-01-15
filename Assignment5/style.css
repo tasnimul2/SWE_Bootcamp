@@ -1,3 +1,30 @@
-h1{
-    color: pink;
+.mainDiv{
+    width: 100%;
+    height: 1000px;
+}
+.differentProductsDiv{
+    width: 30%;
+    height: 50%;
+    float: left;
+    margin-left: 10%;
+    border: 2px solid red;
+}
+.snackImages{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.modalLinkOpeningButton{
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    border: 2px solid orange;
+    width:40%;
+    height: 35px;
+}
+.modalLinkOpeningButton:hover{
+    color:orange;
+    background-color: white;
+    border: 2px solid orange;
 }
