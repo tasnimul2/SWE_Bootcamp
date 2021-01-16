@@ -1,0 +1,38 @@
+.nycpic{
+    width: 40%;
+    height: 70%;
+    border: 2px solid black;
+    margin-left: 5%;
+}
+.nycimg{
+    width:100%;
+    height:100%;
+}
+.clickmeBtn{
+    float:right;
+    margin-right: 5%;
+}
+
+.colImg{
+    width: 60%;
+    border-radius: 40%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgHeading{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottomdiv{
+    height: 1000px;
+    border: 2px solid black;
+}
+.flowerImg{
+    float: left;
+    width: 100%;
+}
+.tableimg{
+    width: 60%;
+    border: 2px solid gray;
+}
