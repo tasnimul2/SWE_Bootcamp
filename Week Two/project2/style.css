@@ -1,0 +1,58 @@
+.itemListMainDiv{
+    width:100%;
+    height:800px;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+
+.items{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 80%;
+    border: 2px solid orange;
+    float: left;
+
+}
+
+.itemImages{
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 60%;
+    
+
+
+}
+.buyButton{
+    color:black;
+    height:40px;
+    width:50%;
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.buyButton:hover{
+    color: white;
+    background: black;
+    border: 2px solid black;
+}
+.modalWindow{
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background-color: rgba(111,111,111,0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+.modalWindow:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
