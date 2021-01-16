@@ -1,3 +1,10 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+body{
+    background-color: antiquewhite;
+}
 .itemListMainDiv{
     width:100%;
     height:800px;
@@ -12,7 +19,6 @@
     margin-right: auto;
     margin-top: 5%;
     height: 80%;
-    border: 2px solid orange;
     float: left;
 
 }
@@ -27,16 +33,20 @@
 
 
 }
+.lotionBrandName{
+    font-weight: bold;
+    color: goldenrod;
+}
 .buyButton{
     color:black;
     height:40px;
     width:50%;
-    background: white;
+    background: antiquewhite;
     border: 2px solid black;
     border-radius: 15px;
 }
 .buyButton:hover{
-    color: white;
+    color: antiquewhite;
     background: black;
     border: 2px solid black;
 }
@@ -54,5 +64,92 @@
     opacity: 1;
     pointer-events: all;
 }
+.msgblock{
+    position: relative;
+    width:40%;
+    height: 70%;
+    background-color: white;
+    margin:auto;
+    margin-top: 5%;
+}
+.xButton{
+    font-weight: bold;
+    float: right;
+    background-color: white;
+    color: black;
+    border: none;
 
+}
+.xButton:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+.modalHeading{
+    width:80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    background-color: white;
+}
+.modalHeading p{
+    margin-bottom: 1%;
+    background-color: white;
+}
+.modalHeading hr{
+    height:2px;
+    background-color: silver;
+    border: none;
+}
+.itemDescription{
+    height: 50%;
+    background-color: white;
+}
+.descriptionDivs{
+    width: 40%;
+    height: 99%;
+    float: left;
+    margin-left: 5%;
+    background-color: white;
+}
+.descriptionDivs img{
+    width: 100%;
+    background-color: white;
+
+}
+.descriptionDivs p{
+    font-size: 10px;
+}
+
+.modalDescriotion{
+    height: 30%;
+    background-color: silver;
+}
+.modalDescriotion p{
+    text-align: center;
+    color: white;
+    
+}
+.modalDescriotion hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    height:2px;
+    background-color: white;
+    border: none;
+}
+.continue-shoppingBtn{
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30%;
+}
+.continue-shoppingBtn:hover{
+    background-color: white;
+    color: black;
+}
 
