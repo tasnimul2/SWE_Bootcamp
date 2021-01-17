@@ -112,9 +112,39 @@
 }
 
 #two-image-descriptions{
-    border: 2px solid purple;
-    height: 200px;
+    width: 100%;
+    height: 300px;
 }
+.image-description-div{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+#description-img-1{
+    background-image: url(https://i.imgur.com/IjO7kKu.jpg);
+    filter: contrast(50%);
+    background-size: cover;
+}
+#description-img-1-text-div{
+    border: 2px solid limegreen;
+    width: 70%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#description-img-1-text{
+    color:white;
+    margin: 5%;
+}
+
+#description-img-2{
+    background: linear-gradient(white, #e2f7d2);
+    filter: contrast(50%);
+    border: lightblue;
+}
+
 
 body{
     background-color: antiquewhite;
@@ -122,7 +152,6 @@ body{
 .itemListMainDiv{
     width:100%;
     height:800px;
-    border: 2px solid red;
     overflow: auto;
 }
 
@@ -181,6 +210,7 @@ body{
     background-color: white;
     margin:auto;
     margin-top: 5%;
+    overflow: scroll;
 }
 .xButton{
     font-weight: bold;
@@ -262,4 +292,67 @@ body{
     background-color: white;
     color: black;
 }
+
+.item-set-caption{
+    font-size: 12px;
+}
+
+#footer-main-div{
+    height: 400px;
+    background-color: #2e2d2d;
+}
+#footer-top-section{
+    height:40%;
+}
+.footer-section{
+    width:20%;
+    height:100%;
+    margin-left: 4%;
+    float: left;
+}
+.section-title{
+    color:white;
+}
+
+.section-info{
+    color:white;
+    font-size: 12px;
+}
+#footer-dividing-hr{
+    height:2px;
+    background-color: white;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#bottom-sec-text-div{
+    height: 35%;
+}
+.bottom-section-title{
+    color: white;
+    margin-right: 10%;
+    float:right;
+}
+#footer-bottom-section{
+    height:50%;
+}
+#social-media-icons{
+    height: 20%;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+}
+
+
+.icon-div{
+    float:left;
+    width: 20%;
+    height:100%;
+    margin-left: 5%;
+}
+
+.social-media-img{
+    width: 80%;
+}
+
 
