@@ -16,3 +16,21 @@ TEST DATA 2: Nets score 85, 54 and 41. Knicks score 23, 34 and 27
 
 const calcAverage = (score1,score2,score3) =>   (score1+score2+score3)/3;
 console.log(calcAverage(10,10,10));
+
+const myArr = ["apple","banana", "lemon"];
+
+console.log(myArr[1]);
+
+const arrMethid = new Array("apple","banana", "lemon");
+
+console.log(arrMethid);
+
+const john ={
+    firstName: 'john',
+    lastName: 'williams',
+    age:'2020-1996',
+    friends:['me','my self', 'I']
+}
+
+console.log(john);
+john['instagram'] = '@john';
