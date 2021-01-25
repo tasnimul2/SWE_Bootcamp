@@ -1,0 +1,26 @@
+.modal-window{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left:0px;
+    background-color: rgba(30,86,124,0.4);
+    opacity: 0;
+    pointer-events: none;
+}
+.modal-window:target{
+    opacity:1;
+    pointer-events: all;
+}
+
+.message-modal{
+    position: relative;
+    width:60%;
+    height: 400px;
+    margin:auto;
+    background-color: white;
+    margin-top: 10%;
+}
+#close-btn{
+    float:right;
+}
