@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "message": "great job is right around the corner",
+        "lucky_number": 12,
+        "spirit_animal":"dog"
+    },
+    {
+        "id": 2,
+        "message": "becoming a billionare soon $$$",
+        "lucky_number": 8,
+        "spirit_animal":"Lion"
+    },
+    {
+        "id": 3,
+        "message": "great great ideas for project",
+        "lucky_number": 1,
+        "spirit_animal":"rabbit"
+    },
+    {
+        "id": 4,
+        "message": "one apple a day keeps the doctor away",
+        "lucky_number": 100,
+        "spirit_animal":"Turtle"
+    }
+    
+]
